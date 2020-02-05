@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		EEFC84B423EABB27000ECAF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFC84B323EABB27000ECAF8 /* AppDelegate.swift */; };
 		EEFC84B623EABB27000ECAF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFC84B523EABB27000ECAF8 /* SceneDelegate.swift */; };
-		EEFC84B823EABB27000ECAF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFC84B723EABB27000ECAF8 /* ViewController.swift */; };
 		EEFC84BB23EABB27000ECAF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEFC84B923EABB27000ECAF8 /* Main.storyboard */; };
-		EEFC84BD23EABB2C000ECAF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEFC84BC23EABB2C000ECAF8 /* Assets.xcassets */; };
 		EEFC84C023EABB2C000ECAF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEFC84BE23EABB2C000ECAF8 /* LaunchScreen.storyboard */; };
+		EEFC84C823EABC19000ECAF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEFC84C723EABC19000ECAF8 /* Assets.xcassets */; };
+		EEFC84CA23EABD0D000ECAF8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFC84C923EABD0D000ECAF8 /* HomeViewController.swift */; };
+		EEFC84CC23EABD3C000ECAF8 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFC84CB23EABD3B000ECAF8 /* MenuViewController.swift */; };
+		EEFC84CE23EACFA3000ECAF8 /* SlideInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFC84CD23EACFA3000ECAF8 /* SlideInTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EEFC84B023EABB27000ECAF8 /* NaviagtionDrawer(SlideInTransition).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NaviagtionDrawer(SlideInTransition).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEFC84B323EABB27000ECAF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEFC84B523EABB27000ECAF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EEFC84B723EABB27000ECAF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EEFC84BA23EABB27000ECAF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EEFC84BC23EABB2C000ECAF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEFC84BF23EABB2C000ECAF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEFC84C123EABB2C000ECAF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEFC84C723EABC19000ECAF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Assets.xcassets; sourceTree = "<group>"; };
+		EEFC84C923EABD0D000ECAF8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EEFC84CB23EABD3B000ECAF8 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		EEFC84CD23EACFA3000ECAF8 /* SlideInTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				EEFC84B323EABB27000ECAF8 /* AppDelegate.swift */,
 				EEFC84B523EABB27000ECAF8 /* SceneDelegate.swift */,
-				EEFC84B723EABB27000ECAF8 /* ViewController.swift */,
 				EEFC84B923EABB27000ECAF8 /* Main.storyboard */,
-				EEFC84BC23EABB2C000ECAF8 /* Assets.xcassets */,
+				EEFC84C723EABC19000ECAF8 /* Assets.xcassets */,
 				EEFC84BE23EABB2C000ECAF8 /* LaunchScreen.storyboard */,
 				EEFC84C123EABB2C000ECAF8 /* Info.plist */,
+				EEFC84C923EABD0D000ECAF8 /* HomeViewController.swift */,
+				EEFC84CB23EABD3B000ECAF8 /* MenuViewController.swift */,
+				EEFC84CD23EACFA3000ECAF8 /* SlideInTransition.swift */,
 			);
 			path = "NaviagtionDrawer(SlideInTransition)";
 			sourceTree = "<group>";
@@ -126,7 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEFC84C023EABB2C000ECAF8 /* LaunchScreen.storyboard in Resources */,
-				EEFC84BD23EABB2C000ECAF8 /* Assets.xcassets in Resources */,
+				EEFC84C823EABC19000ECAF8 /* Assets.xcassets in Resources */,
 				EEFC84BB23EABB27000ECAF8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEFC84B823EABB27000ECAF8 /* ViewController.swift in Sources */,
 				EEFC84B423EABB27000ECAF8 /* AppDelegate.swift in Sources */,
 				EEFC84B623EABB27000ECAF8 /* SceneDelegate.swift in Sources */,
+				EEFC84CA23EABD0D000ECAF8 /* HomeViewController.swift in Sources */,
+				EEFC84CC23EABD3C000ECAF8 /* MenuViewController.swift in Sources */,
+				EEFC84CE23EACFA3000ECAF8 /* SlideInTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
